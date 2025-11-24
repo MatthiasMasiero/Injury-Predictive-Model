@@ -1,0 +1,58 @@
+# Environment variables (IMPORTANT: Contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Data files (can be large, regenerate from API)
+data/*.json
+data/*.csv
+*.csv
+*.json
+
+# Model files (can be regenerated)
+*.pkl
+*.joblib
+*.h5
+*.pth
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
